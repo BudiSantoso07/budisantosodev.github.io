@@ -1,0 +1,22 @@
+{
+    "name": "Info Sepakbola Inggris",
+    "gcm_sender_id": "273155761295",
+    "short_name": "ISBI",
+    "description": "Aplikasi yang menyajikan informasi sepakbola inggris",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#2196F3",
+    "theme_color": "#2196F3",
+    "icons": [
+        {
+            "src": "./img/icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

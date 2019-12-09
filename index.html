@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Info Liga Inggris</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2196F3"/>
+  <meta name="description" content="Info Liga Inggris"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" href="img/icon192x192.png">
+  <script src="js/materialize.min.js"></script>
+  <script src="js/workbox-sw.js"></script>
+  <script src="api/global.js"></script>
+  <script src="api/klasemen.js"></script>
+  <script src="api/info-team.js"></script>
+  <script src="database/index-db.js"></script>
+  <script src="database/team-saya.js"></script>
+  <script src="notification/push-notif.js"></script>
+  <script src="routes/web.js"></script>
+  <script src="js/pwa.js"></script>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo" id="logo-container">
+        Info Liga Inggris
+      </a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+      
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <div class="container" id="body-content"></div>
+</body>
+</html>
