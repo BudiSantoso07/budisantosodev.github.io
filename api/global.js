@@ -1,5 +1,5 @@
-var requestUrlStanding = "https://api.football-data.org/v2/competitions/2021/standings";
-var requestUrlInfoTeam = "https://api.football-data.org/v2/teams";
+const requestUrlStanding = "https://api.football-data.org/v2/competitions/2021/standings";
+const requestUrlInfoTeam = "https://api.football-data.org/v2/teams";
 
 function status(response) {
     if (response.status !== 200) {
